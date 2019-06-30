@@ -38,7 +38,8 @@ for num in range where num % 2 == 0 {
 
 Write code that prints only the odd numbers from 19 to 51, **inclusive.**
 
-```var range = 19...51
+```
+var range = 19...51
 
 for num in range where num % 2 != 0 {
     print (num)
@@ -48,7 +49,8 @@ for num in range where num % 2 != 0 {
 
 Write code that prints all the numbers that end in a **5** from 1 to 100, **exclusive.**
 
-```var range = 1..<100
+```
+var range = 1..<100
 
 for num in range where num % 5 == 0 && num % 2 != 0 {
     print (num)
@@ -60,7 +62,8 @@ for num in range where num % 5 == 0 && num % 2 != 0 {
 
 Write code that prints all the numbers that end in a 7 from 1 to 40, **inclusive.**
 
-```var range = 1...40
+```
+var range = 1...40
 
 for num in range {
     if num % 10 == 7 {
@@ -90,7 +93,8 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that are divisible by 2 and 3`
 
-```var range = 20...150
+```
+var range = 20...150
 
 for num in range {
     if num % 2 == 0 && num % 3 == 0 {
@@ -105,7 +109,8 @@ Given a range of numbers from 20 to 150 inclusive, print out all the numbers tha
 
 `Numbers that end with a 4`
 
-```var range = 20...150
+```
+var range = 20...150
 
 for num in range {
     if num % 10 == 4 {
@@ -120,7 +125,8 @@ Given a range of numbers from 20 to 150, print out all the numbers that follows 
 
 `Print out numbers: 31, 35, 40 to 60.`
 
-```let range = 20...150
+```
+let range = 20...150
 
 for num in range where num == 31 {
     print(num)
@@ -182,7 +188,8 @@ while (i > 3) {
     i += 1
 }
 ```
-```var i = 5
+```
+var i = 5
 
 while (i < 1005) {
     i += 1
@@ -201,7 +208,8 @@ while (i > 3) {
     i += 1
 }
 ```
-```var i = 5
+```
+var i = 5
 
 while (i < 1005) {
     i += 1
@@ -240,7 +248,8 @@ Both outputs are the same. The difference in syntax comes from loop 2 using a re
 What's the difference between `break` and `continue`?  Give an example that demonstrates their differences.
 
 A break statement stops the execution of the loop when the condition is satisfied. A continue statement moves onto the next iteration when the condition is satisfied. As an example:
-```var range = 1...10
+```
+var range = 1...10
 
 for number in range {
     if number == 3{
@@ -252,7 +261,8 @@ for number in range {
 ```
 This uses a break element. The computer will go through the numbers in the range 1 through 10 and will list them. It will list 1, then 2, but since the code instructs it to break the loop when it encounters a 3, it will end the execution of the loop there and will not do anything else. The output will therefore be the numbers 1 and 2.
 
-```var range = 1...10
+```
+var range = 1...10
 
 for number in range {
     if number == 3{
@@ -338,7 +348,8 @@ x = 3, y = 1
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** x and y are both integers.
 
-```var range = 0...10
+```
+var range = 0...10
 
 for x in range {
     for y in range {
@@ -352,7 +363,8 @@ for x in range {
 
 Write code that prints out all the points in the area bounded by (0,0), (10,0), (0,10) and (10,10) **where** the difference of x and y is at least 5, and x and y are both integers.
 
-```var range = 0...10
+```
+var range = 0...10
 
 for x in range {
     for y in range {
@@ -418,7 +430,8 @@ Try printing a single line of * first.
 Hint 2
 You can use print("") to print an empty line.
 
-```var N = 3
+```
+var N = 3
 
 for _ in 1...N {
     for _ in 1...N {
