@@ -142,9 +142,9 @@ var i = 5
 while (i > 3) {
     i += 1
 }
-
-// Infinite loop. This is because the initial value of i, 5, is greater than 3. So long as i is greater than 3, the loop will continue. 
 ```
+Infinite loop. This is because the initial value of i, 5, is greater than 3. So long as i is greater than 3, the loop will continue. 
+
 
 ***
 ## Question 12
