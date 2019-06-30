@@ -162,7 +162,6 @@ while (i > 3) {
 
 while (i < 9) {
     i += 1
-    print(i)
 }
 
 
@@ -184,7 +183,6 @@ while (i > 3) {
 
 while (i < 1005) {
     i += 1
-    print(i)
 }
 ```
 
