@@ -5,7 +5,8 @@
 
 Write code that prints all the numbers from 1 to 150, **inclusive.**
 
-```var range = 1...150
+```
+var range = 1...150
 
 for num in range {
     print (num)
@@ -15,7 +16,8 @@ for num in range {
 
 Write code that prints all the numbers from 142 to 159, **exclusive.**
 
-```var range = 142..<159
+```
+var range = 142..<159
 
 for num in range {
     print (num)
@@ -25,7 +27,8 @@ for num in range {
 
 Write code that prints only the even numbers from 15 to 80, **inclusive.**
 
-```var range = 15...80
+```
+var range = 15...80
 
 for num in range where num % 2 == 0 {
     print (num)
