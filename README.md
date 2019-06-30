@@ -167,7 +167,8 @@ while (i > 3) {
     i += 1
 }
 ```
-```var i = 5
+```
+var i = 5
 
 while (i < 9) {
     i += 1
@@ -431,6 +432,7 @@ Hint 2
 You can use print("") to print an empty line.
 
 ```
+
 var N = 3
 
 for _ in 1...N {
